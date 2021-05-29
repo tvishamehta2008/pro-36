@@ -7,12 +7,24 @@
     <script src="p5.play.js"></script>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+
+
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
 <script>
   // Your web app's Firebase configuration
-
+  var firebaseConfig = {
+    apiKey: "AIzaSyCS2EORz-Z-pBsbZhy4y_6muo8H8HHEdPo",
+    authDomain: "feed-the-dog-8e48b.firebaseapp.com",
+    databaseURL: "https://feed-the-dog-8e48b-default-rtdb.firebaseio.com",
+    projectId: "feed-the-dog-8e48b",
+    storageBucket: "feed-the-dog-8e48b.appspot.com",
+    messagingSenderId: "580607438541",
+    appId: "1:580607438541:web:72211e3719eb44bf64c384"
+  };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
